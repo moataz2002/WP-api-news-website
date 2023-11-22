@@ -1,4 +1,5 @@
 async function getNews(){
+    //change the YOUR-API-TOKEN with your API token from the Washington post API website
     await fetch('https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=YOUR-API-TOKEN')
     .then(d => d.json())
     .then(response => {
