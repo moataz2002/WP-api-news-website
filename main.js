@@ -24,8 +24,9 @@ async function getNews(){
             catch(err){
                 console.log(err);
             }
-            // console.log(response.results[i].title);
-            // console.log(i);
+            // you can comment the (only) following two lines
+            console.log(response.results[i].title);
+            console.log(i);
         }
         document.getElementById('copyright').innerHTML = response.copyright;
     })
