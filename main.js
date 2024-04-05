@@ -19,6 +19,7 @@ async function getNews(){
                     </div>
                     </div>
                     <br>
+                    <br>
                     `
                 console.log(response.results[i]['media'][0].caption);
             }
